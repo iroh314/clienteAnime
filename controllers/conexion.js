@@ -15,7 +15,7 @@ fetch(url,peticion)
 })
 
 .then(function(datos){
-    console.log(datos)
+    pintarPersonajes(datos)
 })
 
 //4. Funcion para pintar los datos de llegada
